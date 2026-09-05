@@ -3,6 +3,16 @@ Lightweight PowerShell agent for centralized script distribution, integrity veri
 
 Built to solve a real problem: distributing and running maintenance/automation scripts across a fleet of Windows PCs that don't share a domain controller or a full RMM (Remote Monitoring & Management) platform, using only an FTP server as the source of truth.
 
+## Project Structure
+
+ITScripts/
+├── Agent.ps1
+├── Install.ps1
+├── README.md
+├── LICENSE
+└── examples/
+    └── config.example.json
+
 ## How it works
 
 ```
