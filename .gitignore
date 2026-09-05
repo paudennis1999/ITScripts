@@ -1,0 +1,15 @@
+# Local agent configuration
+agent-config.json
+
+# Agent runtime state
+agent-state.json
+
+# Local logs
+*.log
+
+# PowerShell temporary files
+*.tmp
+
+# Windows files
+Thumbs.db
+Desktop.ini
