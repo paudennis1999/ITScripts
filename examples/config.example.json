@@ -1,0 +1,15 @@
+{
+    "scripts": [
+        {
+            "name": "example.ps1",
+            "enabled": true,
+            "execute": true,
+            "group": "ALL",
+            "sha256": "",
+            "schedule": {
+                "type": "interval",
+                "minutes": 5
+            }
+        }
+    ]
+}
